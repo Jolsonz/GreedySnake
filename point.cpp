@@ -5,13 +5,13 @@
 void Point::Print()//输出方块
 {
     SetCursorPosition(x, y);
-    std::cout << "■" ;
+    std::cout << "o" ;
 }
 
 void Point::PrintCircular()//输出圆形
 {
     SetCursorPosition(x, y);
-    std::cout << "●" ;
+    std::cout << "-" ;
 }
 
 void Point::Clear()//清除输出
