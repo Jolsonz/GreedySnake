@@ -5,7 +5,7 @@
 class Controller
 {
 public:
-    Controller() : speed(200), key(1), score(0) {}
+    Controller() : speed(200), key(1), score(0) {}//构造函数初始化列表，不需要参数
     void Start();
     void Select();
     void DrawGame();
