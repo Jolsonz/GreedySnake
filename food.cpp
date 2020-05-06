@@ -85,7 +85,7 @@ void Food::FlashBigFood()//闪烁限时食物
     SetColor(18);
     if (flash_flag)
     {
-        std::cout << "  " ;
+        std::cout << " " ;
         flash_flag = false;
     }
     else
